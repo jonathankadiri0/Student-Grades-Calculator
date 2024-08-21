@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assignment-03.css">
+
+    <title>Student Grades Tables</title>
+</head>
+<body>
+    <table id="table">
+        <tr>
+            <th>Student Name</th>
+            <th>Student ID</th>
+            <th>Assignment 1</th>
+            <th>Assignment 2</th>
+            <th>Assignment 3</th>
+            <th>Assignment 4</th>
+            <th>Assignment 5</th>
+            <th>Average</th>
+        </tr>
+
+        <tr>
+            <td>Janet Jackson</td>
+            <td>22930040</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Marie Oniwinde</td>
+            <td>22740055</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Jeffery Williams</td>
+            <td>22640333</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Dikachi Udeh-Joseph</td>
+            <td>22640999</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Ralphael Embiemu</td>
+            <td>22640989</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Naomi Osaka</td>
+            <td>22641230</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Reena Goma</td>
+            <td>22646660</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Marcus Chen</td>
+            <td>22640040</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Sara Saro</td>
+            <td>22459320</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        <tr>
+            <td>Jonathan Kadiri</td>
+            <td>22364026</td>
+            <td contenteditable="true"></td> <!-- Add grades for Assignment 1-5 -->
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td class = "final-grade"></td> <!-- Add average grade -->
+        </tr>
+        
+    </table>
+    <div id = "unsubmittedCount"></div> 
+
+    <button onclick= "addNewRow()">Add Row</button>
+    <button onclick="addColumn()">Add Column</button>
+    <button onclick= "saveTableState()">Save Table State</button>
+    <button onclick= "restoreTableState()">Restore Table State</button>
+
+    <script src= "assignment-03.js"> </script>
+</body>
+</html>
+
